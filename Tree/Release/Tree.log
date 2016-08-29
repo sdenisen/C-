@@ -1,0 +1,33 @@
+﻿Build started 8/29/2016 11:28:16 PM.
+     1>Project "C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Tree\Tree.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Release\Tree.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\Tree.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp ServiceManager.cpp
+         main.cpp
+     1>main.cpp(75): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+     1>c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(11): warning C4018: '<': signed/unsigned mismatch
+         c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(5): note: while compiling class template member function 'void PrintTree<std::string>::Print(TreeItem<std::string> *,int,int)'
+         c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(28): note: see reference to function template instantiation 'void PrintTree<std::string>::Print(TreeItem<std::string> *,int,int)' being compiled
+         c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\TreeTestCases.h(84): note: see reference to class template instantiation 'PrintTree<std::string>' being compiled
+     1>c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(15): warning C4018: '<': signed/unsigned mismatch
+         ServiceManager.cpp
+     1>c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(11): warning C4018: '<': signed/unsigned mismatch
+         c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(5): note: while compiling class template member function 'void PrintTree<std::string>::Print(TreeItem<std::string> *,int,int)'
+         c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(28): note: see reference to function template instantiation 'void PrintTree<std::string>::Print(TreeItem<std::string> *,int,int)' being compiled
+         ServiceManager.cpp(111): note: see reference to class template instantiation 'PrintTree<std::string>' being compiled
+     1>c:\users\sergey\desktop\tree-2008\tree-2008\tree\tree\PrintTree.h(15): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Release\Tree.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Release\Tree.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Release\Tree.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\ServiceManager.obj
+         Release\stdafx.obj
+         Generating code
+         All 339 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         Tree.vcxproj -> C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Release\Tree.exe
+     1>Done Building Project "C:\Users\Sergey\Desktop\Tree-2008\Tree-2008\Tree\Tree\Tree.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.91
